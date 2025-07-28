@@ -1,6 +1,7 @@
+// src/__tests__/01.test.js
+
 import { renderHook, act } from "@testing-library/react-hooks";
 import { useDocumentTitle } from "../exercise/01";
-// import { useDocumentTitle } from "../solution/01";
 
 describe("Exercise 01", () => {
   test("is exported as a named export", () => {
